@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="387.0" prefWidth="272.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="weatherapplication.FXMLDocumentController">
+    <children>
+      <TextField fx:id="city_name" layoutX="20.0" layoutY="8.0" prefHeight="27.0" prefWidth="153.0" promptText="city name" />
+      <Button layoutX="183.0" layoutY="8.0" mnemonicParsing="false" onAction="#displayWeather" prefHeight="27.0" prefWidth="74.0" text="Weather" />
+      <VBox layoutX="18.0" layoutY="50.0" prefHeight="56.0" prefWidth="237.0">
+         <children>
+            <Text fx:id="temperature" strokeType="OUTSIDE" strokeWidth="0.0" />
+            <Text fx:id="pressure" strokeType="OUTSIDE" strokeWidth="0.0" />
+            <Text fx:id="humidity" strokeType="OUTSIDE" strokeWidth="0.0" />
+         </children>
+      </VBox>
+      <Button layoutX="42.0" layoutY="146.0" mnemonicParsing="false" onAction="#resetWeather" prefHeight="27.0" prefWidth="178.0" text="Reset" />
+    </children>
+</AnchorPane>
