@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="367.0" prefWidth="276.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication17.GalaryController">
+   <children>
+      <TextField alignment="TOP_LEFT" layoutX="8.0" layoutY="1.0" prefHeight="27.0" prefWidth="107.0" text="BEST CUTS! " />
+      <ImageView fx:id="imageTest" fitHeight="128.0" fitWidth="107.0" layoutX="8.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+         <image> 
+            <Image url="@hairStyle1.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="143.0" fitWidth="107.0" layoutX="8.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="123.0" fitWidth="123.0" layoutX="8.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@femaleHairStyle.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="12.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Short Curly haircuts" wrappingWidth="99.0" />
+      <Text layoutX="12.0" layoutY="342.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Short Faded Cuts" wrappingWidth="123.1181640625" />
+      <TextField alignment="TOP_LEFT" layoutX="129.0" layoutY="1.0" prefHeight="27.0" prefWidth="107.0" text="BEST CUTS! " />
+      <ImageView fitHeight="133.0" fitWidth="107.0" layoutX="129.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@profilePic3.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="138.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fresh Hair Cuts" wrappingWidth="107.0" />
+      <ImageView fitHeight="117.0" fitWidth="107.0" layoutX="129.0" layoutY="192.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@barber.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="130.0" layoutY="341.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Beared Plus Hair Cut Match" wrappingWidth="123.1181640625" />
+   </children>
+</AnchorPane>
