@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="352.0" prefWidth="276.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication17.ProfilePageController">
+   <children>
+      <Button layoutX="15.0" layoutY="55.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="164.0" text="Ratings: 4.52/5" />
+      <TextArea layoutX="13.0" layoutY="226.0" prefHeight="139.0" prefWidth="289.0" text="Hello There! I am Emmanuel! I love traveling &#10;and my next visit is to your favorite &#10;spot/home. Shot me an email to schedule &#10;your favorite hair style cut at your &#10;convenience!!!&#10;Looking forward to Seeing you!!!&#10;" />
+      <VBox layoutX="186.0" layoutY="51.0" prefHeight="115.0" prefWidth="123.0">
+         <children>
+            <TextField promptText="Enter Name" />
+            <TextField promptText="Location" />
+            <TextField promptText="Enter Phone Number" />
+            <TextField promptText="Enter Email" />
+         </children>
+      </VBox>
+      <Button layoutX="15.0" layoutY="10.0" mnemonicParsing="false" onAction="#backHome" prefHeight="32.0" prefWidth="289.0" text="Home &lt;                   Profile" />
+      <ImageView fitHeight="129.0" fitWidth="123.0" layoutX="16.0" layoutY="94.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@barber.jpeg" />
+         </image></ImageView>
+   </children>
+</AnchorPane>

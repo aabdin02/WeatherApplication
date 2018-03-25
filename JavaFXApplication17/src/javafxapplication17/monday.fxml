@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="323.0" prefWidth="217.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="javafxapplication17.MondayController">
+   <children>
+      <Button layoutX="8.0" layoutY="40.0" mnemonicParsing="false" onAction="#Update9AmSlot" prefHeight="27.0" prefWidth="188.0" text="9:00Am " />
+      <TextField layoutX="8.0" layoutY="7.0" prefHeight="27.0" prefWidth="188.0" promptText="Please Choose a time" />
+      <Button layoutX="8.0" layoutY="79.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="188.0" text="10:00Am " />
+      <Button layoutX="8.0" layoutY="116.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="188.0" text="12:00pm" />
+      <Button layoutX="8.0" layoutY="248.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="188.0" text="Customize Your Time Slot" />
+      <Button layoutX="8.0" layoutY="154.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="188.0" text="4:00pm" />
+      <Button layoutX="8.0" layoutY="188.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="188.0" text="6:00pm" />
+   </children>
+</AnchorPane>

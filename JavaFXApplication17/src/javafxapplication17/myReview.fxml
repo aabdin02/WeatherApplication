@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="404.0" prefWidth="313.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="javafxapplication17.MyReviewController">
+   <children>
+      <HBox layoutX="6.0" layoutY="6.0" prefHeight="31.0" prefWidth="304.0">
+         <children>
+            <TextField prefHeight="36.0" prefWidth="106.0" text="Rating:" />
+            <TextField prefHeight="35.0" prefWidth="199.0" text="Comment:" />
+         </children>
+      </HBox>
+      <HBox layoutX="8.0" layoutY="47.0" prefHeight="31.0" prefWidth="304.0">
+         <children>
+            <TextField prefHeight="31.0" prefWidth="107.0" text="4/5" />
+            <TextField prefHeight="31.0" prefWidth="203.0" text="Highly recommend flip flop" />
+         </children>
+      </HBox>
+      <HBox layoutX="8.0" layoutY="77.0" prefHeight="42.0" prefWidth="304.0">
+         <children>
+            <TextField prefHeight="40.0" prefWidth="108.0" text="3.9/5" />
+            <TextField prefHeight="38.0" prefWidth="199.0" text="Arrived 15 min late, but great" />
+         </children>
+      </HBox>
+      <HBox layoutX="8.0" layoutY="119.0" prefHeight="31.0" prefWidth="304.0">
+         <children>
+            <TextField prefHeight="31.0" prefWidth="107.0" text="3.9/5" />
+            <TextField prefHeight="31.0" prefWidth="203.0" text="Good guy, good cut" />
+         </children>
+      </HBox>
+      <HBox layoutX="9.0" layoutY="150.0" prefHeight="31.0" prefWidth="304.0">
+         <children>
+            <TextField prefHeight="31.0" prefWidth="107.0" text="3.9/5" />
+            <TextField prefHeight="31.0" prefWidth="203.0" text="Does a great fade " />
+         </children>
+      </HBox>
+      <HBox layoutX="9.0" layoutY="181.0" prefHeight="31.0" prefWidth="304.0">
+         <children>
+            <TextField prefHeight="31.0" prefWidth="107.0" text="3.8/5" />
+            <TextField prefHeight="31.0" prefWidth="203.0" text="Gave the touch-up I needed!" />
+         </children>
+      </HBox>
+      <HBox layoutX="6.0" layoutY="212.0" prefHeight="31.0" prefWidth="304.0">
+         <children>
+            <TextField prefHeight="31.0" prefWidth="107.0" text="3.4/5" />
+            <TextField prefHeight="31.0" prefWidth="203.0" text="Highly recommend his fade!" />
+         </children>
+      </HBox>
+      <HBox layoutX="8.0" layoutY="243.0" prefHeight="31.0" prefWidth="304.0">
+         <children>
+            <TextField prefHeight="31.0" prefWidth="107.0" text="3.4/5" />
+            <TextField prefHeight="31.0" prefWidth="203.0" text="A little pricey..." />
+         </children>
+      </HBox>
+      <HBox layoutX="8.0" layoutY="274.0" prefHeight="31.0" prefWidth="304.0">
+         <children>
+            <TextField prefHeight="31.0" prefWidth="107.0" text="2.5/5" />
+            <TextField prefHeight="31.0" prefWidth="203.0" text="He cuts a bit too much off top" />
+         </children>
+      </HBox>
+      <HBox layoutX="8.0" layoutY="305.0" prefHeight="31.0" prefWidth="304.0">
+         <children>
+            <TextField prefHeight="31.0" prefWidth="107.0" text="2.1/5" />
+            <TextField prefHeight="31.0" prefWidth="203.0" text="Yucks!!!" />
+         </children>
+      </HBox>
+      <HBox layoutX="9.0" layoutY="336.0" prefHeight="31.0" prefWidth="304.0">
+         <children>
+            <TextField prefHeight="31.0" prefWidth="107.0" text="1.8/5" />
+            <TextField prefHeight="31.0" prefWidth="203.0" text="EH!!!!" />
+         </children>
+      </HBox>
+      <HBox layoutX="9.0" layoutY="367.0" prefHeight="31.0" prefWidth="304.0">
+         <children>
+            <TextField prefHeight="31.0" prefWidth="107.0" text="0.9/5" />
+            <TextField prefHeight="31.0" prefWidth="203.0" text="Late 30min; Horrible Style;" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

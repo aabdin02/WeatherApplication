@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="354.0" prefWidth="261.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication17.CalendarController">
+   <children>
+      <Button layoutX="23.0" layoutY="8.0" mnemonicParsing="false" onAction="#openMonday" prefHeight="34.0" prefWidth="198.0" text="MONDAY" />
+      <Button layoutX="23.0" layoutY="46.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="198.0" text="TUESDAY" />
+      <Button layoutX="22.0" layoutY="81.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="198.0" text="WEDNESDAY" />
+      <Button layoutX="23.0" layoutY="122.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="198.0" text="THURSDAY" />
+      <Button layoutX="23.0" layoutY="177.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="198.0" text="FRIDAY" />
+      <Button layoutX="22.0" layoutY="235.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="198.0" text="SATURDAY" />
+      <Button layoutX="19.0" layoutY="290.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="205.0" text="SUNDAY" />
+   </children>
+</AnchorPane>

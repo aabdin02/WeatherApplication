@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="323.0" prefWidth="260.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication17.MyHistoryController">
+   <children>
+      <TextField editable="false" layoutY="-1.0" prefHeight="36.0" prefWidth="62.0" text="Name:" />
+      <TextField editable="false" layoutX="62.0" layoutY="-1.0" prefHeight="36.0" prefWidth="62.0" text="Date:" />
+      <TextField editable="false" layoutX="124.0" prefHeight="36.0" prefWidth="73.0" text="Price:" />
+      <TextField editable="false" layoutX="197.0" prefHeight="36.0" prefWidth="73.0" text="Contact" />
+      <TextField editable="false" layoutX="194.0" layoutY="36.0" prefHeight="36.0" prefWidth="80.0" text="206-490" />
+      <TextField editable="false" layoutX="136.0" layoutY="36.0" prefHeight="36.0" prefWidth="62.0" text="\$45.00" />
+      <TextField editable="false" layoutX="67.0" layoutY="36.0" prefHeight="36.0" prefWidth="73.0" text="04/3/18" />
+      <TextField editable="false" layoutX="5.0" layoutY="36.0" prefHeight="36.0" prefWidth="62.0" text="Aisha" />
+      <TextField editable="false" layoutX="1.0" layoutY="83.0" prefHeight="36.0" prefWidth="62.0" text="Ali" />
+      <TextField editable="false" layoutX="63.0" layoutY="83.0" prefHeight="36.0" prefWidth="73.0" text="04/8/18" />
+      <TextField editable="false" layoutX="131.0" layoutY="83.0" prefHeight="36.0" prefWidth="62.0" text="\$54.00" />
+      <TextField editable="false" layoutX="190.0" layoutY="83.0" prefHeight="36.0" prefWidth="80.0" text="206-490" />
+      <TextField editable="false" layoutX="5.0" layoutY="126.0" prefHeight="36.0" prefWidth="62.0" text="Leoul" />
+      <TextField editable="false" layoutX="67.0" layoutY="126.0" prefHeight="36.0" prefWidth="73.0" text="03/23/18" />
+      <TextField editable="false" layoutX="129.0" layoutY="126.0" prefHeight="36.0" prefWidth="62.0" text="\$15.00" />
+      <TextField editable="false" layoutX="194.0" layoutY="126.0" prefHeight="36.0" prefWidth="80.0" text="206-490" />
+      <TextField editable="false" layoutX="198.0" layoutY="234.0" prefHeight="36.0" prefWidth="80.0" text="206-490" />
+      <TextField editable="false" layoutX="133.0" layoutY="234.0" prefHeight="36.0" prefWidth="62.0" text="\$15.00" />
+      <TextField editable="false" layoutX="71.0" layoutY="234.0" prefHeight="36.0" prefWidth="73.0" text="03/23/18" />
+      <TextField editable="false" layoutX="9.0" layoutY="234.0" prefHeight="36.0" prefWidth="62.0" text="Joe" />
+      <TextField editable="false" layoutX="197.0" layoutY="198.0" prefHeight="36.0" prefWidth="80.0" text="206-490" />
+      <TextField editable="false" layoutX="138.0" layoutY="198.0" prefHeight="36.0" prefWidth="62.0" text="\$54.00" />
+      <TextField editable="false" layoutX="70.0" layoutY="198.0" prefHeight="36.0" prefWidth="73.0" text="04/8/18" />
+      <TextField editable="false" layoutX="8.0" layoutY="198.0" prefHeight="36.0" prefWidth="62.0" text="Halima" />
+      <TextField editable="false" layoutX="7.0" layoutY="162.0" prefHeight="36.0" prefWidth="62.0" text="Ahmed" />
+      <TextField editable="false" layoutX="69.0" layoutY="162.0" prefHeight="36.0" prefWidth="73.0" text="04/3/18" />
+      <TextField editable="false" layoutX="138.0" layoutY="162.0" prefHeight="36.0" prefWidth="62.0" text="\$45.00" />
+      <TextField editable="false" layoutX="196.0" layoutY="162.0" prefHeight="36.0" prefWidth="80.0" text="206-490" />
+      <TextField editable="false" layoutX="10.0" layoutY="270.0" prefHeight="36.0" prefWidth="62.0" text="Joe" />
+      <TextField editable="false" layoutX="72.0" layoutY="270.0" prefHeight="36.0" prefWidth="73.0" text="03/23/18" />
+      <TextField editable="false" layoutX="134.0" layoutY="270.0" prefHeight="36.0" prefWidth="62.0" text="\$15.00" />
+      <TextField editable="false" layoutX="199.0" layoutY="270.0" prefHeight="36.0" prefWidth="80.0" text="206-490" />
+   </children>
+</AnchorPane>
